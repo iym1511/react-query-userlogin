@@ -1,0 +1,39 @@
+{
+  "join": [
+    {
+      "id": "qwe123",
+      "password": "qwe123",
+      "name": "테스트"
+    },
+    {
+      "id": "asd123",
+      "password": "asd123",
+      "name": "테스트2"
+    },
+    {
+      "id": "moon",
+      "password": "moon8361",
+      "name": "문윤"
+    },
+    {
+      "id": "zzzz",
+      "password": "zzzz8361",
+      "name": "윤"
+    },
+    {
+      "id": "zzzzㅋ",
+      "password": "zzzz8361",
+      "name": "윤"
+    },
+    {
+      "id": "zz",
+      "password": "zzzz8361",
+      "name": "윤"
+    },
+    {
+      "id": "zzas",
+      "password": "asz8361",
+      "name": "윤"
+    }
+  ]
+}
