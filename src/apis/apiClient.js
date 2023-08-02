@@ -30,7 +30,7 @@ export const loginUserData = async (param) => {
 }
 
 // 회원정보 수정
-export const updateUser = async (userid, param) => {
-  const { data } = await apiClient.put(`/join/iym1511` , param)
+export const updateUser = async ( param ) => {
+  const { data } = await apiClient.put(`/join/${param.id}` , param)
   return data
 }
