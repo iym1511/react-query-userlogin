@@ -22,6 +22,7 @@ const Main = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+    
     setAccount((prevAccount) => ({
       ...prevAccount,
       [name]: value, // 해당 name에 해당하는 속성을 새로운 value로 업데이트
@@ -62,7 +63,6 @@ const Main = () => {
   const upDateUser = () => {
     updateData.mutate({id: "iym1511", password:"변경한831", name:"변경일윤"})
   }
-  
 
 
   if (dataList.isLoading) return <div>로딩중</div>
@@ -71,7 +71,7 @@ const Main = () => {
 
   return (  
     <div>
-      <input type="text" name="id" value={account.id} onChange={handleChange} placeholder="아이디"/>
+      <input type="email" name="id" value={account.id} onChange={handleChange} placeholder="아이디"/>
       <input type="text" name="password" value={account.password} onChange={handleChange} placeholder="비밀번호"/>
       <input type="text" name="name" value={account.name} onChange={handleChange} placeholder="이름"/>
       <button onClick={AddUser} disabled={isDisabled}>회원가입</button>
