@@ -22,7 +22,7 @@ const Main = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    
+
     setAccount((prevAccount) => ({
       ...prevAccount,
       [name]: value, // 해당 name에 해당하는 속성을 새로운 value로 업데이트
@@ -63,7 +63,6 @@ const Main = () => {
   const upDateUser = () => {
     updateData.mutate({id: "iym1511", password:"변경한831", name:"변경일윤"})
   }
-
 
   if (dataList.isLoading) return <div>로딩중</div>
 
